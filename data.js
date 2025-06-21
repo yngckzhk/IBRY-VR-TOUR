@@ -2,92 +2,6 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-21",
-      "name": "駅前店側21",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 2580.5,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.8896502171303862,
-          "pitch": 0.2228073113630913,
-          "rotation": 11.780972450961727,
-          "target": "1-21"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-21",
-      "name": "和田21",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.1383854592202063,
-          "pitch": 0.3274605945752267,
-          "rotation": 26.70353755551326,
-          "target": "0-21"
-        },
-        {
-          "yaw": -0.0922387909973903,
-          "pitch": 0.3792753455347171,
-          "rotation": 29.845130209103058,
-          "target": "2-21"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-21",
       "name": "丸八21",
       "levels": [
         {
@@ -118,7 +32,100 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -2.5402433742430635,
+          "pitch": 0.32187794259330005,
+          "rotation": 0.7853981633974483,
+          "target": "2-21k"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-eki21km",
+      "name": "eki21km",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2683,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.1671046313997433,
+          "pitch": 0.08460014036402441,
+          "rotation": 5.497787143782138,
+          "target": "2-21k"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-21k",
+      "name": "和田21k",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.36742264305966543,
+          "pitch": 0.3172532503081733,
+          "rotation": 10.995574287564278,
+          "target": "0-21"
+        },
+        {
+          "yaw": 0.7080040401553038,
+          "pitch": 0.3332828279147346,
+          "rotation": 1.5707963267948966,
+          "target": "1-eki21km"
+        }
+      ],
       "infoHotspots": []
     }
   ],
@@ -126,7 +133,7 @@ var APP_DATA = {
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
-    "fullscreenButton": false,
+    "fullscreenButton": true,
     "viewControlButtons": true
   }
 };
